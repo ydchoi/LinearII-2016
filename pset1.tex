@@ -45,7 +45,7 @@ Problem Set I}
 
 
 \author{
-Evan Choi \\
+Youngduck Choi \\
 CIMS \\
 New York University\\
 \texttt{yc1104@nyu.edu} \\
@@ -71,15 +71,39 @@ New York University\\
 \maketitle
 
 \begin{abstract}
-This work contains the solutions to the problem set II
+This work contains solutions to the problem set I
 of Linear Algebra II 2016 at Courant Institute of Mathematical Sciences.
 \end{abstract}
 
 \bigskip
 
 \begin{question}[1]
+\hfill
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=1\textwidth]{HW-1-1.png}
+\end{figure}
 \end{question}
 \begin{solution}
+\textbf{(a)} 
+By expressing $f,h$ in terms of the coefficients $a_k, b_k$ that determine $f$ and $g$,
+exploiting the fact that the complex conjugate of the product is the product of the conjugate,
+using the differentiation of complex polynomials, 
+we obtain
+\eQb
+(f,g)_2 &=& 
+\int_{0}^{1} (\sum_{i=0}^{N} a_i t^i )\overline{(\sum_{i=0}^{N} b_i t^i)} dt \\ 
+&=&  
+\int_{0}^{1} (\sum_{i=0}^{N} a_i t^i )(\sum_{i=0}^{N} \overline{b_i}t^i) dt \\
+&=& \int_{0}^{1} \sum_{0 \leq i,j \leq N} a_i \overline{b_j} t^{i+j} dt \\
+&=& \Big[ \sum_{0 \leq i,j \leq N} \dfrac{a_i \overline{b_j}}{i+j+1} t^{i+j+1} \Big]_{0}^{1} \\ 
+&=& \sum_{0 \leq i,j \leq N} \dfrac{a_i \overline{b_j}}{i+j+1}. \\
+\eQe
+
+\bigskip
+
+\textbf{(b)} We are given $D: V_N \to V_N$ such that 
+
 \end{solution}
 
 \end{document}
