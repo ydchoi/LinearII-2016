@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  31 JAN 2016 10:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  31 JAN 2016 12:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -553,76 +553,60 @@ Package pdftex.def Info: LA-1-1.png used on input line 84.
 <LA-1-2.png, id=22, 619.31375pt x 150.5625pt>
 File: LA-1-2.png Graphic file (type png)
  <use LA-1-2.png>
-Package pdftex.def Info: LA-1-2.png used on input line 115.
+Package pdftex.def Info: LA-1-2.png used on input line 120.
 (pdftex.def)             Requested size: 397.48499pt x 96.63763pt.
 
-! Undefined control sequence.
-l.131 eigenspace as $\text{Null}(A - \lambdaI
-                                             )$. Hence, for
-? 
-Runaway argument?
-! Paragraph ended before \eQb was complete.
-<to be read again> 
-                   \par 
-l.134 
-      
-? 
-! Undefined control sequence.
-l.136 \eQe
-          
-? 
 <LA-1-3.png, id=23, 607.26875pt x 78.2925pt>
 File: LA-1-3.png Graphic file (type png)
  <use LA-1-3.png>
-Package pdftex.def Info: LA-1-3.png used on input line 145.
+Package pdftex.def Info: LA-1-3.png used on input line 184.
 (pdftex.def)             Requested size: 397.48499pt x 51.2467pt.
-
-<LA-1-4.png, id=24, 595.22375pt x 200.75pt>
-File: LA-1-4.png Graphic file (type png)
- <use LA-1-4.png>
-Package pdftex.def Info: LA-1-4.png used on input line 164.
-(pdftex.def)             Requested size: 397.48499pt x 134.05762pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[2 <./LA-1-2.png>] <LA-1-4.png, id=31, 595.22375pt x 200.75pt>
+File: LA-1-4.png Graphic file (type png)
 
-Underfull \vbox (badness 3291) has occurred while \output is active []
+<use LA-1-4.png>
+Package pdftex.def Info: LA-1-4.png used on input line 203.
+(pdftex.def)             Requested size: 397.48499pt x 134.05762pt.
 
- [2 <./LA-1-2.png> <./LA-1-3.png>] <LA-1-5.png, id=34, 615.29875pt x 357.335pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <./LA-1-3.png> <./LA-1-4.png>] <LA-1-5.png, id=40, 615.29875pt x 357.335pt>
 File: LA-1-5.png Graphic file (type png)
 
 <use LA-1-5.png>
-Package pdftex.def Info: LA-1-5.png used on input line 176.
+Package pdftex.def Info: LA-1-5.png used on input line 215.
 (pdftex.def)             Requested size: 397.48499pt x 230.84189pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3 <./LA-1-4.png> <./LA-1-5.png>] <LA-1-6.png, id=43, 613.29124pt x 261.97874p
-t>
+ [4 <./LA-1-5.png>] <LA-1-6.png, id=47, 613.29124pt x 261.97874pt>
 File: LA-1-6.png Graphic file (type png)
-
-<use LA-1-6.png>
-Package pdftex.def Info: LA-1-6.png used on input line 188.
+ <use LA-1-6.png>
+Package pdftex.def Info: LA-1-6.png used on input line 227.
 (pdftex.def)             Requested size: 397.48499pt x 169.79247pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
- [4 <./LA-1-6.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 233.
+
+[5 <./LA-1-6.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 233.
  (./pset1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 233.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 233.
 Package rerunfilecheck Info: File `pset1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 194.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 233.
  ) 
 Here is how much of TeX's memory you used:
- 10237 strings out of 493089
- 152421 string characters out of 6134842
- 248634 words of memory out of 5000000
+ 10238 strings out of 493089
+ 152427 string characters out of 6134842
+ 254634 words of memory out of 5000000
  13561 multiletter control sequences out of 15000+600000
  14896 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,10n,39p,251b,399s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,14n,39p,251b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -634,10 +618,10 @@ ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/texmf-di
 st/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb>
-Output written on pset1.pdf (4 pages, 351772 bytes).
+Output written on pset1.pdf (5 pages, 353155 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
+ 91 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

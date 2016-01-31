@@ -102,7 +102,12 @@ we obtain
 
 \bigskip
 
-\textbf{(2)} We are given $D: V_N \to V_N$ such that 
+\textbf{(2)} By writing down the matrix representation of the differentiation 
+operator, using
+the standard polynomial basis, $\{ 1, x, x^2, ..., x^n\}$, we see that the matrix does not
+equal its conjugate transpose, and also does not equal the negative of the conjugate transpose.
+Hence, it is not self-adjoint, and not skew-joint. 
+\hfill $\qed$  
 
 \end{solution}
 
@@ -125,11 +130,49 @@ which can equivalently written as
 {\lambda}^2 -3\lambda + 1 &=& 0. 
 \eQe
 Using the quadratic formula, we obtain that 
-$\dfrac{3 \pm \sqrt{5}}{2}$ are the eigenvalues of the matrix. Now we determine the respective
+$\dfrac{3 \pm \sqrt{5}}{2}$ are the eigenvalues of the matrix. Now, we determine the respective
 eigenspaces. 
-Recall that, we can characterize the 
+Recall that we can characterize the 
 eigenspace as $\text{Null}(A - \lambda I)$. Hence, for 
-firstly, for $\lambda = \dfrac{3 + sqrt{5}}{2}$, 
+ $\lambda = \dfrac{3 + \sqrt{5}}{2}$, we have
+\eQb
+\text{Null}(A -\lambda I) 
+&=& \text{Null} \Big( 
+\begin{pmatrix}
+1-\dfrac{3 + \sqrt{5}}{2} & -1 \\
+-1 & 2 - \dfrac{3 + \sqrt{5}}{2} \\ 
+\end{pmatrix} \Big) \\
+ &=& \text{Null} \Big( 
+\begin{pmatrix}
+\dfrac{-1 + \sqrt{5}}{2} & -1 \\
+-1 & \dfrac{1 + \sqrt{5}}{2} \\ 
+\end{pmatrix} \Big) \\ 
+ &=& \text{span} \Big( 
+\begin{pmatrix}
+1 \\
+\dfrac{-1 + \sqrt{5}}{2} \\ 
+\end{pmatrix} \Big), \\
+\eQe 
+where the last spanning vector is chosen via inspection. Analogously, 
+ $\lambda = \dfrac{3 - \sqrt{5}}{2}$, we have
+\eQb
+\text{Null}(A -\lambda I) 
+&=& \text{Null} \Big( 
+\begin{pmatrix}
+1-\dfrac{3 - \sqrt{5}}{2} & -1 \\
+-1 & 2 - \dfrac{3 - \sqrt{5}}{2} \\ 
+\end{pmatrix} \Big) \\
+ &=& \text{Null} \Big( 
+\begin{pmatrix}
+\dfrac{-1 - \sqrt{5}}{2} & -1 \\
+-1 & \dfrac{1 - \sqrt{5}}{2} \\ 
+\end{pmatrix} \Big) \\ 
+ &=& \text{span} \Big( 
+\begin{pmatrix}
+1 \\
+\dfrac{-1 - \sqrt{5}}{2} \\ 
+\end{pmatrix} \Big). \\
+\eQe
 \end{solution}
 
 \bigskip
