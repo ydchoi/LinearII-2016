@@ -81,11 +81,11 @@ of Linear Algebra II 2016 at Courant Institute of Mathematical Sciences.
 \hfill
 \begin{figure}[h!]
   \centering
-    \includegraphics[width=1\textwidth]{HW-1-1.png}
+    \includegraphics[width=1\textwidth]{LA-1-1.png}
 \end{figure}
 \end{question}
 \begin{solution}
-\textbf{(a)} 
+\textbf{(1)} 
 By expressing $f,h$ in terms of the coefficients $a_k, b_k$ that determine $f$ and $g$,
 exploiting the fact that the complex conjugate of the product is the product of the conjugate,
 using the differentiation of complex polynomials, 
@@ -102,8 +102,89 @@ we obtain
 
 \bigskip
 
-\textbf{(b)} We are given $D: V_N \to V_N$ such that 
+\textbf{(2)} We are given $D: V_N \to V_N$ such that 
 
+\end{solution}
+
+\bigskip
+
+\begin{question}[2]
+\hfill
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=1\textwidth]{LA-1-2.png}
+\end{figure}
+\end{question}
+\begin{solution}
+Firstly, the characteristic equation of the matrix $A$ is given by
+\eQb
+(1-\lambda)(2-\lambda) - 1 &=& 0,
+\eQe
+which can equivalently written as
+\eQb
+{\lambda}^2 -3\lambda + 1 &=& 0. 
+\eQe
+Using the quadratic formula, we obtain that 
+$\dfrac{3 \pm \sqrt{5}}{2}$ are the eigenvalues of the matrix. Now we determine the respective
+eigenspaces. 
+Recall that, we can characterize the 
+eigenspace as $\text{Null}(A - \lambda I)$. Hence, for 
+firstly, for $\lambda = \dfrac{3 + sqrt{5}}{2}$, 
+\end{solution}
+
+\bigskip
+
+\begin{question}[3]
+\hfill
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=1\textwidth]{LA-1-3.png}
+\end{figure}
+\end{question}
+\begin{solution}
+Let $T$ be a normal operator on a finite dimensional inner product space. 
+By Complex Spectral theorem, we obtain that $T$ has a diagonal matrix with respect to
+some orthonormal basis, which we denote as $M(T)$. By definition, $T$ is self-adjoint iff
+$M(T) = M(T)^*$, where $M(T)^*$ denotes the conjugate transpose of $M(T)$. Since, $M(T)$ is 
+diagonal, we have that $M(T) = M(T)^*$ iff diagonal entries are real. Since we know that the
+diagonal entries of a diagonal matrix is the specturm, we have that the diagonal entries of $M(T)$
+is real iff all of its eigenvalues are real. By the chain of equivalence obtained, we are done. 
+\hfill $\qed$ 
+\end{solution}
+\bigskip
+
+\begin{question}[4]
+\hfill
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=1\textwidth]{LA-1-4.png}
+\end{figure}
+\end{question}
+\begin{solution}
+\end{solution}
+
+\pagebreak
+
+\begin{question}[5]
+\hfill
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=1\textwidth]{LA-1-5.png}
+\end{figure}
+\end{question}
+\begin{solution}
+\end{solution}
+
+\pagebreak
+
+\begin{question}[6]
+\hfill
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=1\textwidth]{LA-1-6.png}
+\end{figure}
+\end{question}
+\begin{solution}
 \end{solution}
 
 \end{document}
