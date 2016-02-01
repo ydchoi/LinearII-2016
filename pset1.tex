@@ -144,13 +144,13 @@ eigenspace as $\text{Null}(A - \lambda I)$. Hence, for
 \end{pmatrix} \Big) \\
  &=& \text{Null} \Big( 
 \begin{pmatrix}
-\dfrac{-1 + \sqrt{5}}{2} & -1 \\
--1 & \dfrac{1 + \sqrt{5}}{2} \\ 
+\dfrac{-1 - \sqrt{5}}{2} & -1 \\
+-1 & \dfrac{1 - \sqrt{5}}{2} \\ 
 \end{pmatrix} \Big) \\ 
- &=& \text{span} \Big( 
+ &=& \text{Span} \Big( 
 \begin{pmatrix}
 1 \\
-\dfrac{-1 + \sqrt{5}}{2} \\ 
+\dfrac{-1 - \sqrt{5}}{2} \\ 
 \end{pmatrix} \Big), \\
 \eQe 
 where the last spanning vector is chosen via inspection. Analogously, 
@@ -164,15 +164,19 @@ where the last spanning vector is chosen via inspection. Analogously,
 \end{pmatrix} \Big) \\
  &=& \text{Null} \Big( 
 \begin{pmatrix}
-\dfrac{-1 - \sqrt{5}}{2} & -1 \\
--1 & \dfrac{1 - \sqrt{5}}{2} \\ 
+\dfrac{-1 + \sqrt{5}}{2} & -1 \\
+-1 & \dfrac{1 + \sqrt{5}}{2} \\ 
 \end{pmatrix} \Big) \\ 
- &=& \text{span} \Big( 
+ &=& \text{Span} \Big( 
 \begin{pmatrix}
 1 \\
-\dfrac{-1 - \sqrt{5}}{2} \\ 
+\dfrac{-1 +\sqrt{5}}{2} \\ 
 \end{pmatrix} \Big). \\
 \eQe
+Now, with the eigenspaces computed, we can simply normalize each spanning vector, and obtain the
+orthonormal basis that diagnoalizes $T$, which turn out to be $\dfrac{1}{N_1} (1, \dfrac{-1 - 
+\sqrt{5}}{2})$ and $\dfrac{1}{N_2} (1, \dfrac{-1-\sqrt{5}}{2})$, where $N_1$ and $N_2$ are the
+corresponding normalization scalar. \hfill $\qed$
 \end{solution}
 
 \bigskip
@@ -204,6 +208,17 @@ is real iff all of its eigenvalues are real. By the chain of equivalence obtaine
 \end{figure}
 \end{question}
 \begin{solution}
+By definition of exponential operator and the given hint, we have
+\eQb
+e^{T} &=& \sum_{k=0}^{\infty} \dfrac{1}{k!} T^k \\
+&=& \sum_{k=0}^{\infty} \dfrac{1}{k!} \sum_{\lambda \in \text{sp}(T)}
+ \lambda^k P_{\lambda} \\
+&=& \sum_{\lambda \in \text{sp}(T)} \sum_{k=0}^{\infty} \dfrac{\lambda^k}{k!} P_{\lambda} \\
+&=& \sum_{\lambda \in \text{sp}(T)} e^{\lambda}P_{\lambda},
+\eQe
+as $\sum_{k=0}^{\infty} \dfrac{\lambda^k}{k!} = e^{\lambda}$ is a well-known identity in analysis,
+and the exchange of the summand is justified by the original convergence. \hfill $\qed$
+
 \end{solution}
 
 \pagebreak
@@ -215,7 +230,33 @@ is real iff all of its eigenvalues are real. By the chain of equivalence obtaine
     \includegraphics[width=1\textwidth]{LA-1-5.png}
 \end{figure}
 \end{question}
-\begin{solution}
+\begin{solution} Since $L_A$ typically denotes the matrix of an operator, with respect 
+to the standard basis, we have that the basis that the matrix is induced by is orthonormal.
+In that case, we know that the matrix of the adjoint operator, with respect to the same 
+orthonormal basis, is the conjugate transpose of the original matrix. The given matrix equals
+its conjugate transpose. Hence, we conclude that it is self-adjoint.
+
+\smallskip
+
+\textbf{(a)}
+Firstly, the characteristic equation of the matrix $A$ is given by
+\eQb
+(2-\lambda)(4-\lambda) - 9 &=& 0,
+\eQe
+which can equivalently written as
+\eQb
+{\lambda}^2 -6\lambda - 1 &=& 0, 
+\eQe
+Using the quadratic formula, we obtain that 
+$3 \pm \sqrt{10}$ are the eigenvalues of the matrix. The specturm 
+of $A$ is just 
+the set formed by those two eigenvalues.
+
+\smallskip
+
+\textbf{(b)} 
+
+ 
 \end{solution}
 
 \pagebreak
