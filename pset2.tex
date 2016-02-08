@@ -86,7 +86,43 @@ of Linear Algebra II 2016 at Courant Institute of Mathematical Sciences.
 \end{figure}
 \end{question}
 \begin{solution}
+\textbf{((a)} 
+Firstly, note that $u_j$ is an eigenvalue of $T$. To see this, let $v \neq 0 \in Q_j$.
+Then, as $Q_jv = v $, it follows that
+\eQb
+Tv &=& \sum_{i=1}^{s} u_i Q_i v \\
+&=& \sum_{i=1}^{s} u_i Q_i Q_j v \\
+&=& u_j Q_j^2 v \\
+&=& u_j v .
+\eQe
+Therefore, we have shown that $\text{Im}(Q_j) \subset \text{Im}(P_{u_j})$. Next, suppose $w$
+is an arbitrary eigenvector of $T$, It follows that $w = \sum_{i=1}^{s} Q_i w$, which
+expresses $w$  as a sum of zero-vectors and eigenvectors. But, since eigenvectors corresponding
+to distinct eigenvalues are linearly independent, the only possibility is that 
+$w \in \text{Im}(Q_i) = \text{Im}(P_{\lambda_i})$ for some $i$. Hence, we have shown that
+\eQb
+\{ u_1,..,u_r\} = \text{sp}(T).
+\eQe
 
+\newpage
+
+\textbf{(b)} We have shown that $\text{Im}(Q_i) = \text{Im}(P_{\lambda_i})$ for all $i$ after
+relabeling. As they are both projections, the proof of uniqueness will be established, if 
+we show that they possess the same kernel. By assumption, we have
+\eQb
+\text{ker}(P_{\lambda_i}) &=& \sum_{j \neq i} \text{Im}(P_{\lambda_j}) \\
+&=& \sum_{j \neq i} \text{Im}(Q_j). \\ 
+\eQe
+Let $v \in \text{ker}(P_{\lambda_i})$. Then, it follows that 
+\eQb
+v &=& \sum_{j \neq i } Q_j x_j \\
+\eQe
+for $x_j \in V$ with $j \neq i$. Furthermore, we have
+\eQb
+Q_i v &=& Q_i \sum_{j \neq i} Q_j x_j = 0 .
+\eQe
+Converse holds true with the same logic. 
+\hfill $\qed$
 \end{solution}
 
 \newpage
@@ -224,10 +260,10 @@ projection.
     \includegraphics[width=1\textwidth]{LA-2-5.png}
 \end{figure}
 \end{question}
-\begin{solution} 
+\begin{solution}  
 \end{solution}
 
-\pagebreak
+\newpage
 
 \begin{question}[6]
 \hfill
@@ -237,8 +273,13 @@ projection.
 \end{figure}
 \end{question}
 \begin{solution}
-\textbf{(a)}
+\textbf{(a)} As $T^*$ is diagonalizable, we can express $V$ as a direct sum of 
+eigenspaces, which we denote as $E_{\lambda}(T^*)$ for $\lambda \in sp(T^*)$.
+The same logic aapplies to $T$ being diagonalizable with $\lambda \in sp(T)$.
+Hence, they will be conjugate transpose of each other, with the corrpsponding
+eigenspaces. 
 
+\smallskip
 
 \textbf{(b)} Assume $T$ is orthogonally diagonalizable. Then, there exists an orthonormal 
 basis $B$ such that $[T]_{B}$ is diagonal. As $B$ is orthonormal, we have that $[T^*]_{B}
@@ -282,7 +323,16 @@ is linearly independent, thus a basis in $V^*$.
 
 \bigskip
 
-\textbf{(2)} We wish to find vectors $v_1, v_2, v_3$
+\textbf{(2)} We wish to find vectors $v_i = (x_i, y_i, z_i)$, for $1 \leq i \leq 3$, such that
+$f_i(v_j) = \delta_{ij}$. For $v_1$ we have
+\eQb
+x_1 - 2y_1 &=& 0 \\
+x_1 + y_1 + z_1 &=& 0 \\
+y_1 - 3 z_1 &=& 0. \\
+\eQe
+Solving the system, we obtain $x_1 = \dfrac{4}{10}$, $y_1 = \dfrac{-3}{10}$, and $z_1 = 
+\dfrac{-1}{10}$. The rest can be computed in the exact same manner.
+\hfill $\qed$
 
 \end{solution}
 
