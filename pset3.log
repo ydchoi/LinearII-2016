@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  21 FEB 2016 10:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 FEB 2016 16:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -562,52 +562,52 @@ Package pdftex.def Info: LA-3-1.png used on input line 85.
 <LA-3-2.png, id=22, 632.3625pt x 489.83pt>
 File: LA-3-2.png Graphic file (type png)
  <use LA-3-2.png>
-Package pdftex.def Info: LA-3-2.png used on input line 132.
+Package pdftex.def Info: LA-3-2.png used on input line 134.
 (pdftex.def)             Requested size: 397.48499pt x 307.89943pt.
  [2 <./LA-3-2.png>]
 <LA-3-3.png, id=33, 608.2725pt x 84.315pt>
 File: LA-3-3.png Graphic file (type png)
  <use LA-3-3.png>
-Package pdftex.def Info: LA-3-3.png used on input line 201.
+Package pdftex.def Info: LA-3-3.png used on input line 203.
 (pdftex.def)             Requested size: 397.48499pt x 55.0987pt.
 
 <LA-3-4.png, id=34, 612.2875pt x 83.31125pt>
 File: LA-3-4.png Graphic file (type png)
  <use LA-3-4.png>
-Package pdftex.def Info: LA-3-4.png used on input line 219.
+Package pdftex.def Info: LA-3-4.png used on input line 221.
 (pdftex.def)             Requested size: 397.48499pt x 54.08427pt.
  [3 <./LA-3-3.png> <./LA-3-4.png>] <LA-3-5.png, id=43, 620.3175pt x 224.84pt>
 File: LA-3-5.png Graphic file (type png)
  <use LA-3-5.png>
-Package pdftex.def Info: LA-3-5.png used on input line 240.
+Package pdftex.def Info: LA-3-5.png used on input line 250.
 (pdftex.def)             Requested size: 397.48499pt x 144.07207pt.
 
 [4 <./LA-3-5.png>] <LA-3-6.png, id=50, 638.385pt x 327.2225pt>
 File: LA-3-6.png Graphic file (type png)
 
 <use LA-3-6.png>
-Package pdftex.def Info: LA-3-6.png used on input line 272.
+Package pdftex.def Info: LA-3-6.png used on input line 283.
 (pdftex.def)             Requested size: 397.48499pt x 203.74463pt.
  [5 <./LA-3-6.png>] <LA-3-7.png, id=62, 626.34pt x 154.5775pt>
 File: LA-3-7.png Graphic file (type png)
 
 <use LA-3-7.png>
-Package pdftex.def Info: LA-3-7.png used on input line 320.
+Package pdftex.def Info: LA-3-7.png used on input line 331.
 (pdftex.def)             Requested size: 397.48499pt x 98.099pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 346.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 357.
  [6 <./LA-3-7.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 346.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 357.
  (./pset3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 346.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 346.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 357.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 357.
 Package rerunfilecheck Info: File `pset3.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 346.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 357.
  ) 
 Here is how much of TeX's memory you used:
  10271 strings out of 493089
  153093 string characters out of 6134842
- 250754 words of memory out of 5000000
+ 251754 words of memory out of 5000000
  13580 multiletter control sequences out of 15000+600000
  15391 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -626,7 +626,7 @@ xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/201
 ist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/texmf-dist/font
 s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
 w/times/utmr8a.pfb>
-Output written on pset3.pdf (6 pages, 527462 bytes).
+Output written on pset3.pdf (6 pages, 528432 bytes).
 PDF statistics:
  116 PDF objects out of 1000 (max. 8388607)
  77 compressed objects within 1 object stream

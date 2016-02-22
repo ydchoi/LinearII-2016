@@ -95,7 +95,9 @@ T^{t}(f)(x,y) &=& fT(x,y) \\
 
 \smallskip
 
-\textbf{(2)} From the Theorem 2.25, it follows that
+\textbf{(2)} From the Theorem 2.25, it follows that the matrix of a transpose map
+with respect to the standard basis is the transpose of a matrix with respect to the 
+standard basis. We compute the matrix in the next section.
 
 \smallskip
 
@@ -220,8 +222,16 @@ Hence, we obtain $[L_{A^*}]_{B} = [(L_{A})^*]_{B}$, thus $L_{A^*} = (L_{A})^*$ a
 \end{figure}
 \end{question}
 \begin{solution}
-Assume that $T(E) \subset E$ and $T(F) \subset F$. Then, it follows that
-$T P_{E} = P_{E} T$. 
+Assume that $T(E) \subset E$ and $T(F) \subset F$. Fix $x \in V$.
+As $E$ and $F$ form a direct sum, we have $x = e + f$ for unique $e,f$ from $E$ and $F$ respectively.
+By the invariance of the subspaces with respect to the $T$ operator, and the linearity of $T$
+and $P_{E}$, it follows that
+\eQb
+T P_{E}(x) &=& T(e) \\ 
+P_{E} T(x) &=& P_{E}(T(e) + T(f))  = P_{E}(T(e)) + P_{E}(T(f)) = T(e). \\
+\eQe
+
+Hence, it follows that $T P_{E} = P_{E} T$. 
 
 \smallskip
 
@@ -253,13 +263,14 @@ Since $\pi(0) = W$, we obtain
 W &=& \sum_{i=1}^{n} c_i \tilde{f_i}, 
 \eQe
 and by the linear independence of $\tilde{f_i}$s, we have that $c_1 = ...= c_n = 0$.
-Hence, $\{ f_1, ..., f_n\}$ is linearly independent. Now, we claim that $\{ e_1,...,f_n\}$
-are linearly independent. Assume that $\sum c_i e_i + \sum d_i f_i = 0$. Applying $\pi$ to both sides
-as above, we have
-\eQb
-W &=& \pi(\sum c_i e_i + \sum d_i f_i) \\
-&=& \pi
-\eQe 
+Hence, $\{ f_1, ..., f_n\}$ is linearly independent. Now, as $\{e_i\}$ and
+$\{f_j\}$ are linearly independent from each other, it follows that $\{ e_1,...,f_n\}$.
+We now show that the set spans $V$. Fix $v \in V$. Take $v + W$. Since $\{\tilde{f_j} \}$
+are basis of the quotient space, we have that $v + W$ can be expressed as a linear combination
+of $\{\tilde{f}_j\}$. Now, taking the pre-image it follows that $v - \sum c_j f_j \in W$. Therefore,
+Using the $\{e_i \}$ we can express $v - \sum c_j f_j$ as a linear combination of them. Hence, 
+this shows that an arbitrary element can be spanned by $\{ e_1, ... f_n \}$.
+\hfill $\qed$ 
 
 \end{solution}
 
